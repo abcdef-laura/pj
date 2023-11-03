@@ -21,7 +21,7 @@ public class MainApp {
         for (PerecheNumere pereche : listaCitita) {
             System.out.println("pereche: " + pereche);
             System.out.println("consecutive în Fibonacci: " + pereche.suntConsecutiveInFibonacci());
-            System.out.println("cmmdc: " + pereche.celMicMultipluComun());
+            System.out.println("cmmdc: " + pereche.cmmc());
             System.out.println("suma cifrelor egală: " + pereche.auSumaCifrelorEgala());
             System.out.println("număr de cifre pare: " + pereche.auAcelasiNrCifrePare());
         }

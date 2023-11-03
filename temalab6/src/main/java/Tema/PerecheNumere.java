@@ -51,7 +51,7 @@ public class PerecheNumere {
         }
 
         // cmmc
-        public int celMicMultipluComun() {
+        public int cmmc() {
             int a = numar1;
             int b = numar2;
             while (b != 0) {
